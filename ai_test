@@ -1,0 +1,4 @@
+ai_server = AIServer("localhost", int(raw_input("What port?")), 1)
+
+while 1:
+    ai_server.move(1, 1)
